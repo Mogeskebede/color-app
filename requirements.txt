@@ -186,6 +186,19 @@ How will Consul be integrated for service discovery and configuration management
 What are the specific requirements for Consul integration?
 By gathering detailed answers to these questions, you can create a comprehensive plan for containerizing the microservices and ensuring a smooth transition to a containerized environment using OpenShift and integrating with Consul.
 
+Migration Strategy:
+
+What is the strategy for migrating CAPI from VMs to containers?
+Are there any critical dependencies or steps that need to be addressed during migration?
+Documentation and Support
+Documentation:
+
+Is there comprehensive documentation available for the current setup and configuration of CAPI?
+Are there any specific guides or runbooks for troubleshooting?
+Support and Maintenance:
+
+Who are the key contacts for each microservice in case of issues?
+What is the process for maintaining and updating the containerized applications?
 
 
 
