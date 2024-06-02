@@ -1,4 +1,12 @@
 Flask
+capi_api => capi_drs and capi_db
+capi_db => capi_stats and capi_drs
+capi_drs=> capi_db, capi_stata?
+capi_mdh => no
+capi_rag => capi_mdh, capi_vra, capi_stats(?), capi_db
+capi_stats => capi_db, capi_vga
+capi_vra => capi_drs
+
 Zookeeper
 ==========
 => mostly used with kafka
