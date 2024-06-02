@@ -7,7 +7,7 @@ capi_rag => capi_mdh, capi_vra, capi_stats(?), capi_db
 capi_stats => capi_db, capi_vga
 capi_vra => capi_drs
 
-Zookeeper
+Zookeeper https://youtu.be/gZj16chk0Ss?si=EKHNDa2x-pZS5xYK
 ==========
 => mostly used with kafka
 => its a database
