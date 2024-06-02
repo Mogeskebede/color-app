@@ -1,9 +1,22 @@
 Flask
-1
+Zookeeper
+==========
+=> mostly used with kafka
+=> its a database
+=> its tree based data and looks like a file system
+=> one element of the tree is called znode
+=> have service discovery
+=> have ephemeral and persistent znodes
+=> guarantees squential consistency.means data sent from client will be handeled squential
 
-2
-
-3
+downsides of Zookeeper
+======================
+=> TLS support only in the beta branch
+=> documentation is a little sparseon the ops side
+=> deployment stage is slow
+=> authontication is too complicated to implement
+=> thedocumentation does not talk about multiple datacenters, but you can have multiple datacenters with zookeeper. the problem is the prossess of electining a 
+follower will be so slow.
 
 Subject: Advantages of Choosing Consul over ZooKeeper for the CAPI 
 Application, Including DRS Management
